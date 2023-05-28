@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Akansha's Component Library</h1>
+    <p>I'm making this component library. With this, I can keep the look of my future projects nice and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is the normal text. It is free flowing and wraps at the end like a paragraph.</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it goes till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it goes till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered lists</h3>
+    <p>This list will not have bullet points</p>
+    <ul class="list-non-bullet">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>inline unordered lists</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item 1</li>
+        <li class="list-item-inline">Item 2</li>
+        <li class="list-item-inline">Item 3</li>
+    </ul>
+
+    <h3>reverse ordered lists</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>egg</li>
+        <li>bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation">
+        <div class="nav-brand">akanshachauhan</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" />
+        <h1 class="hero-heading">Akansha Chauhan</h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <!-- <section class="section">
+        <h3>@fluid section</h3>
+        <p>This will go end to end with little margin on both sides.</p>
+    </section> -->
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>@white section</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur mauris id luctus luctus.
+                Mauris orci justo, luctus convallis bibendum non, facilisis id sem. Donec imperdiet, mauris at molestie
+                ullamcorper, nisl arcu luctus enim, nec sodales nisi elit nec elit. Nunc enim felis, auctor ut laoreet
+                vel, bibendum vitae nisl. </p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>@off white section</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur mauris id luctus luctus.
+                Mauris orci justo, luctus convallis bibendum non, facilisis id sem. Donec imperdiet, mauris at molestie
+                ullamcorper, nisl arcu luctus enim, nec sodales nisi elit nec elit. Nunc enim felis, auctor ut laoreet
+                vel, bibendum vitae nisl. </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">
+            Some small heading inside footer
+        </div>
+        <ul class="social-links">
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialOne
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialTwo
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialThree
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>

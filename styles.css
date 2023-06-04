@@ -1,9 +1,3 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
-
-body {
-    font-family: 'Tajawal', sans-serif;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
 
 :root {
@@ -86,8 +80,6 @@ hr {
 .navigation .link-active {
     font-weight: bold;
 }
-
-/* header */
 
 .hero {
     padding: 2rem;

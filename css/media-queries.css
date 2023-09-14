@@ -1,0 +1,47 @@
+@media screen and (max-width: 425px) {
+    
+    /* HOME PAGE */
+    .page-container {
+        line-height: 1.5;
+        font-size: 0.8rem;
+    }
+    .home-icon {
+        font-size: 1rem;
+    }
+    .navigation {
+        overflow: initial;
+        position: relative;
+    }
+    .navigation .nav-pills {
+        position: absolute;
+        background-color: var(--primary-color);
+        top: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+        width: 100%;
+        align-content: center;
+        padding: 0;
+    }
+    .nav-toggle {
+        display: block;
+        margin-left: auto;
+    }
+    .hero .hero-heading {
+        font-size: 1.5rem;
+    }
+    .container-center {
+        max-width: 80%;
+    }
+    
+
+    /* PROJECT PAGE */
+    .proj-list .zero-margin {
+        font-size: 1rem;
+    }
+
+    /* ABOUT PAGE */
+    .card {
+        max-width: 70%;
+    }
+}

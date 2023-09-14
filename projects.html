@@ -6,137 +6,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Akansha Chauhan</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href="css/media-queries.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="nav-brand">
-            <a class="link" href="/">
-                <img class="home-icon" src="/images/home_icon.svg" />
+    <div class="page-container">
+        <nav class="navigation">
+            <div class="nav-brand">
+                <a class="link" href="/">
+                    <i class="fa-solid fa-house home-icon"></i>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul class="list-non-bullet nav-pills">
+                    <li class="list-item-inline">
+                        <a class="link" href="/about.html">About</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link link-active" href="/projects.html">Projects</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link"
+                            href="https://drive.google.com/file/d/110RvBt6Lr91Lur7AzD84s8dVY7xEZ-5U/view?usp=sharing">Resume</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="link nav-toggle">
+                <i class="fa-solid fa-bars"></i>
             </a>
-        </div>
+        </nav>
 
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/about.html">About</a>
+        <header class="hero">
+            <h1 class="hero-heading" txt="My Projects">My <span class="heading-inverted">Projects</span></h1>
+        </header>
+        <ul class="list-non-bullet section">
+
+            <li class="proj-list">
+                <div class="container container-center">
+                    <h1 class="zero-margin">CSS Grid/Flexbox Practice</h1>
+                    <small>June, 2023</small>
+                    <p>
+                        Hands-on exercise for <b>CSS Grid & Flexbox</b>
+                    </p>
+                    <a class="link link-primary" href="https://hands-on-css.netlify.app/">
+                        Live Project
+                    </a>
+                    <a class="link link-secondary" href="https://github.com/akanshachn/practice-CSS-grid-flexbox">
+                        View Source
+                    </a>
+                </div>
             </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="/projects.html">Projects</a>
+
+            <li class=" proj-list">
+                <div class="container container-center">
+                    <h1 class="zero-margin">Portfolio Website</h1>
+                    <small>June, 2023</small>
+                    <p>
+                        Portfolio website for showcasing my projects, made with <b>JavaScript in Visual Studio</b>
+                    </p>
+                    <a class="link link-primary" href="https://akanshachn.netlify.app/">
+                        Live Project
+                    </a>
+                    <a class="link link-secondary" href="https://github.com/akanshachn/neogcamp-lesson3">
+                        View Source
+                    </a>
+                </div>
             </li>
-            <li class="list-item-inline">
-                <a class="link"
-                    href="https://drive.google.com/file/d/110RvBt6Lr91Lur7AzD84s8dVY7xEZ-5U/view?usp=sharing">Resume</a>
+
+            <li class="proj-list">
+                <div class="container container-center">
+                    <h1 class="zero-margin">goodfood</h1>
+                    <small>June, 2023</small>
+                    <p>
+                        A small app that shows some cuisines and dishes I've tried, made with <b>ReactJS on
+                            codesandbox.com</b>
+                    </p>
+
+                    <a class="link link-primary" href="https://w7wwfc.csb.app/">
+                        Live Project
+                    </a>
+                    <a class="link link-secondary" href="https://codesandbox.io/s/good-food-w7wwfc">
+                        View Source
+                    </a>
+                </div>
             </li>
-        </ul>
-    </nav>
 
-    <header class="hero">
-        <h1 class="hero-heading" txt="My Projects">My <span class="heading-inverted">Projects</span></h1>
-    </header>
-
-    <ul class="list-non-bullet section">
-
-        <li class="proj-list">
-            <div class="container container-center">
-                <h1 class="zero-margin">CSS Grid/Flexbox Practice</h1>
-                <small>June, 2023</small>
-                <p>
-                    Hands-on exercise for <b>CSS Grid & Flexbox</b>
-                </p>
-                <a class="link link-primary" href="https://hands-on-cssgrid.netlify.app/">
-                    Live Project
-                </a>
-                <a class="link link-secondary" href="https://github.com/akanshachn/practice-CSS-grid-flexbox">
-                    View Source
-                </a>
-            </div>
-        </li>
-
-        <li class=" proj-list">
-            <div class="container container-center">
-                <h1 class="zero-margin">Portfolio Website</h1>
-                <small>June, 2023</small>
-                <p>
-                    Portfolio website for showcasing my projects, made with <b>JavaScript in Visual Studio</b>
-                </p>
-                <a class="link link-primary" href="https://akanshachn.netlify.app/">
-                    Live Project
-                </a>
-                <a class="link link-secondary" href="https://github.com/akanshachn/neogcamp-lesson3">
-                    View Source
-                </a>
-            </div>
-        </li>
-
-        <li class="proj-list">
-            <div class="container container-center">
-                <h1 class="zero-margin">goodfood</h1>
-                <small>June, 2023</small>
-                <p>
-                    A small app that shows some cuisines and dishes I've tried, made with <b>ReactJS on
-                        codesandbox.com</b>
-                </p>
-
-                <a class="link link-primary" href="https://w7wwfc.csb.app/">
-                    Live Project
-                </a>
-                <a class="link link-secondary" href="https://codesandbox.io/s/good-food-w7wwfc">
-                    View Source
-                </a>
-            </div>
-        </li>
-
-        <li class="proj-list">
-            <div class="container container-center">
-                <h1 class="zero-margin">emoji interpreter</h1>
-                <small>June, 2023</small>
-                <p>
-                    A fun app to interpret what those confusing emojis mean, made with <b>ReactJS on codesandbox.com</b>
-                </p>
-                <a class="link link-primary" href="https://r2uyle.csb.app/">
-                    Live Project
-                </a>
-                <a class="link link-secondary" href="https://codesandbox.io/s/emoji-interpreter-r2uyle">
-                    View Source
-                </a>
-            </div>
-        </li>
-
-        <li class="proj-list">
-            <div class="container container-center">
-                <h1 class="zero-margin">English to Minionese Converter</h1>
-                <small>June, 2023</small>
-                <p>
-                    An app to convert english text to minions' language, made with <b>VanillaJS in Visual Studio</b>
-                </p>
-                <a class="link link-primary" href="https://engtobananaspeak.netlify.app/">
-                    Live Project
-                </a>
-                <a class="link link-secondary" href="https://github.com/akanshachn/banana-speak">
-                    View Source
-                </a>
-            </div>
-        </li>
-    </ul>
-
-    <footer class="footer">
-        <div class="footer-header">
-            connect with me
-        </div>
-        <ul class="social-links">
-            <li class="list-item-inline">
-                <a class="link" href="https://github.com/akanshachn">
-                    github
-                </a>
+            <li class="proj-list">
+                <div class="container container-center">
+                    <h1 class="zero-margin">emoji interpreter</h1>
+                    <small>June, 2023</small>
+                    <p>
+                        A fun app to interpret what those confusing emojis mean, made with <b>ReactJS on
+                            codesandbox.com</b>
+                    </p>
+                    <a class="link link-primary" href="https://r2uyle.csb.app/">
+                        Live Project
+                    </a>
+                    <a class="link link-secondary" href="https://codesandbox.io/s/emoji-interpreter-r2uyle">
+                        View Source
+                    </a>
+                </div>
             </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/akanshachn">
-                    linkedin
-                </a>
+
+            <li class="proj-list">
+                <div class="container container-center">
+                    <h1 class="zero-margin">English to Minionese Converter</h1>
+                    <small>June, 2023</small>
+                    <p>
+                        An app to convert english text to minions' language, made with <b>VanillaJS in Visual
+                            Studio</b>
+                    </p>
+                    <a class="link link-primary" href="https://engtobananaspeak.netlify.app/">
+                        Live Project
+                    </a>
+                    <a class="link link-secondary" href="https://github.com/akanshachn/banana-speak">
+                        View Source
+                    </a>
+                </div>
             </li>
         </ul>
-    </footer>
+
+        <footer class="footer">
+            <div class="footer-header">
+                connect with me
+            </div>
+            <ul class="social-links">
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/akanshachn">
+                        github
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/akanshachn">
+                        linkedin
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/8428b10b08.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -150,12 +150,12 @@ hr {
     margin: 0px;
 }
 
-.hero-heading::before {
+/* .hero-heading::before {
     content: attr(txt);
     position: absolute;
     text-shadow: var(--heading-shadow-one) 4px 0px;
     animation: 5s linear 0s infinite alternate-reverse none running intro-anim;
-}
+} */
 
 .heading-inverted {
     color: var(--primary-color);

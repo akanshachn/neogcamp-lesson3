@@ -18,7 +18,7 @@
                 <i class="fa-solid fa-house home-icon"></i>
             </a>
             <div class="nav-links">
-                <ul class="list-non-bullet nav-pills">
+                <ul class="list-non-bullet nav-pills" id="nav-pills">
                     <li class="list-item-inline">
                         <a class="link" href="/about.html">About</a>
                     </li>
@@ -31,13 +31,13 @@
                     </li>
                 </ul>
             </div>
-            <a href="#" class="link nav-toggle">
+            <a href="#" class="link nav-toggle" id="nav-toggle">
                 <i class="fa-solid fa-bars"></i>
             </a>
         </nav>
 
         <header class="hero">
-            <h1 class="hero-heading" txt="Hi, I'm Akansha">
+            <h1 class="hero-heading">
                 Hi, <span class="heading-inverted">I'm Akansha</span>
             </h1>
         </header>
@@ -113,7 +113,16 @@
         </footer>
     </div>
 
+
     <script src="https://kit.fontawesome.com/8428b10b08.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navPills = document.getElementById('nav-pills');
+
+        toggleButton.addEventListener('click', () => {
+            navPills.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
